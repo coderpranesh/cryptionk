@@ -73,7 +73,7 @@ const App = () => {
                  <img
                     src={bgImg}
                     alt=""
-                    className="z-[-999] absolute w-full h-[950%] lg:h-[550%] bg-red-600 fill-red-600"
+                    className="z-[-999] absolute w-full h-[950%] lg:h-[550%]"
 
                 />
                 <img
