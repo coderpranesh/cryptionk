@@ -197,7 +197,7 @@ const Home = () => {
                 </div>
 
                 {/* Right Content */}
-                <div className="w-full sm:w-auto lg:w-96 bg-[#1c1b1b] text-white rounded-2xl p-5 flex flex-col items-center space-y-6">
+                <div className="w-full sm:w-auto lg:w-96 bg-[#1c1b1b] text-white rounded-2xl p-5 flex flex-col items-center">
                     {/* Title */}
                     <h2 className="text-xl font-semibold">Swap</h2>
 
@@ -227,7 +227,8 @@ const Home = () => {
                             {/* Divider Button */}
                             <div
                                 onClick={handleSwap}
-                                className="w-12 h-12 bg-[#2B3342] flex items-center justify-center rounded-full border-4 border-[#1c1b1b] cursor-pointer hover:bg-[#1f2933] transition"
+                                className="mx-auto w-[5rem] bg-[#2B3342] py-5 px-[auto] text-center rounded-[2rem] my-[-1.5rem] z-10 border-[#252B36] border-[5px]"
+                                style={{margin:"0 !important"}}
                             >
                                 <button className="text-white text-2xl">⇅</button>
                             </div>
@@ -277,7 +278,8 @@ const Home = () => {
                             {/* Divider Button */}
                             <div
                                 onClick={handleSwap}
-                                className="w-12 h-12 bg-[#2B3342] flex items-center justify-center rounded-full border-4 border-[#1c1b1b] cursor-pointer hover:bg-[#1f2933] transition"
+                                className="mx-auto w-[5rem] bg-[#2B3342] py-5 px-[auto] text-center rounded-[2rem] my-[-1.5rem] z-10 border-[#252B36] border-[5px]"
+                                // style={{marginTop:"0"}}
                             >
                                 <button className="text-white text-2xl">⇅</button>
                             </div>
@@ -306,7 +308,7 @@ const Home = () => {
 
                     {/* Connect Wallet Button */}
                     <button
-                        className="w-full py-3 rounded-lg text-white font-semibold flex items-center justify-center space-x-2"
+                        className="w-full py-3 rounded-lg text-white font-semibold flex items-center justify-center space-x-2 mt-6"
                         style={{
                             background: "linear-gradient(90deg, #94383A 0%, #C86C5B 100%)",
                         }}
