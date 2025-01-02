@@ -227,13 +227,13 @@ const Home = () => {
                             {/* Divider Button */}
                             <div
                                 onClick={handleSwap}
-                                className="w-12 h-12 bg-[#2B3342] flex items-center justify-center rounded-full border-4 border-[#1c1b1b] cursor-pointer hover:bg-[#1f2933] transition"
+                                className="w-12 h-12 bg-[#2B3342] flex inset-x-0 top-1/2 transform -translate-y-1/2 items-center justify-center rounded-full border-4 border-[#1c1b1b] cursor-pointer hover:bg-[#1f2933] transition"
                             >
-                                <button className="text-white text-2xl">⇅</button>
+                                <button className="text-white text-2xl ">⇅</button>
                             </div>
 
                             {/* EOS Section */}
-                            <div className="w-full bg-[#2B3342] p-4 rounded-xl flex items-center justify-between">
+                            <div className="w-full bg-[#2B3342] top-1/2 transform -translate-y-1/2 p-4 rounded-xl flex items-center justify-between">
                                 <div className="flex flex-col space-y-2">
                                     <div className="flex items-center space-x-2">
                                         <img src={eoc} alt="EOS" className="w-6 h-6" />
@@ -277,13 +277,13 @@ const Home = () => {
                             {/* Divider Button */}
                             <div
                                 onClick={handleSwap}
-                                className="w-12 h-12 bg-[#2B3342] flex items-center justify-center rounded-full border-4 border-[#1c1b1b] cursor-pointer hover:bg-[#1f2933] transition"
+                                className="w-12 h-12 bg-[#2B3342] flex inset-x-0 top-1/2 transform -translate-y-1/2 items-center justify-center rounded-full border-4 border-[#1c1b1b] cursor-pointer hover:bg-[#1f2933] transition"
                             >
                                 <button className="text-white text-2xl">⇅</button>
                             </div>
 
                             {/* ETH Section */}
-                            <div className="w-full bg-[#2B3342] p-4 rounded-xl flex items-center justify-between">
+                            <div className="w-full bg-[#2B3342] top-1/2 transform -translate-y-1/2 p-4 rounded-xl flex items-center justify-between">
                                 <div className="flex flex-col space-y-2">
                                     <div className="flex items-center space-x-2">
                                         <img src={ETH} alt="ETH" className="w-6 h-6" />
@@ -318,9 +318,12 @@ const Home = () => {
             </div>
 
             {/* Background Layer */}
-            <div className="absolute top-[25rem] right-[28rem] lg:top-[20rem] lg:right-[20rem] z-[-10]">
-                <img src={layer6} alt="Background Decoration" className="h-12 w-12 sm:h-16 sm:w-16" />
+            <div className="absolute top-[32rem] right-[25rem] z-[-10]">
+                <img src={layer6} alt="" className="h-41 w-40" />
             </div>
+            {/* <div className="absolute top-[25rem] right-[50rem] lg:top-[30rem] lg:right-[20rem] z-[-20]">
+                <img src={layer6} alt="Background Decoration" className="h-12 w-12 sm:h-16 sm:w-16" />
+            </div> */}
         </>
     );
 };
