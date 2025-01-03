@@ -71,8 +71,9 @@ const Testimonial = () => {
         >
             {/* Testimonial Section */}
             <div className="text-center mb-12">
-                <h1 className="text-3xl sm:text-4xl font-bold mb-6">Testimonial</h1>
-                <p className="text-lg leading-relaxed max-w-3xl mx-auto">
+                <h1 className="text-[60px] font-[500] mb-6 font-plus jakarta sans">Testimonial</h1>
+                <p className="text-lg leading-relaxed max-w-3xl mx-auto"
+                style={{ color: '#BEBEC7' }}>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eum fugit 
                     perferendis perspiciatis reprehenderit expedita laboriosam reiciendis 
                     consectetur facilis. Reiciendis, debitis.
