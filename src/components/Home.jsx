@@ -126,7 +126,7 @@ const Home = () => {
                         {/* Divider Button */}
                         <div
                             onClick={handleSwap}
-                            className="absolute left-1/2 transform -translate-x-1/2 top-[36%] z-10"
+                            className="absolute left-1/2 transform -translate-x-1/2 top-[34.5%] z-10"
                         >
                             <div className="w-16 h-16 bg-[#2B3342] flex items-center justify-center rounded-full border-4 border-[#252B36] cursor-pointer hover:bg-[#1f2933] transition">
                                 <button className="text-[#717A8C] text-2xl">⇅</button>
@@ -170,7 +170,7 @@ const Home = () => {
 
                     {/* Connect Wallet Button */}
                     <button
-                        className="w-full py-3 rounded-lg text-white font-semibold flex items-center justify-center space-x-2"
+                        className="w-full py-5 rounded-lg text-white font-semibold flex items-center justify-center space-x-2"
                         style={{
                             background: "linear-gradient(90deg, #94383A 0%, #C86C5B 100%)",
                         }}
@@ -182,7 +182,7 @@ const Home = () => {
             </div>
 
             {/* Background Layer */}
-            <div className="absolute top-[29rem] right-[36rem] z-[-15]">
+            <div className="absolute top-[30rem] right-[36rem] z-[-15]">
                 <img src={layer6} alt="Background Decoration" className="h-41 w-40" />
             </div>
         </>
