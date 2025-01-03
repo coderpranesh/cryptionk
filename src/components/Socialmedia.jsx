@@ -26,7 +26,7 @@ const Socialmedia = () => {
             </div>
 
             {/* Social Media Icons */}
-            <div className="flex flex-wrap justify-center sm:justify-end gap-4">
+            <div className="flex justify-center sm:justify-end gap-4">
                 <a href="#">
                     <img 
                     src={x} 
