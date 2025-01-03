@@ -6,35 +6,48 @@ import Maskgroup2 from "./../assets/Mask group (2).png";
 
 const Portfolio = () => {
   return (
-    <>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center", 
+        minHeight: "100vh",
+        
+      }}
+    >
       <div
         style={{
-          width: "90%", 
-          marginTop: "100px",
-          maxWidth: "1228px", 
+          width: "90%",
+          maxWidth: "1228px",
           padding: "20px",
-          margin: "auto",
-          color: "White",
-          marginLeft: "125px",
+          color: "white",
         }}
       >
         {/* Centered Title and Paragraph */}
-        <div style={{ textAlign: "center", marginBottom: "38px"}}>
-          <h1 style={{ fontSize: "60px" , font: "Plus Jakarta Sans", marginBottom: "62.7px"}}>
+        <div style={{ textAlign: "center", marginBottom: "38px" }}>
+          <h1
+            style={{
+              fontSize: "60px",
+              font: "Plus Jakarta Sans",
+              marginBottom: "62.7px",
+            }}
+          >
             Automated portfolio tracking
           </h1>
           <p
             style={{
-                font: "Inter",
-                fontSize: "18px",
-                width: "924px",
-                height: "60px",
-                marginLeft: "125px",
-                // textAlign: "center",
-                color: "#BEBEC7",
+              font: "Inter",
+              fontSize: "18px",
+              width: "100%",
+              maxWidth: "924px",
+              height: "auto",
+              margin: "0 auto",
+              color: "#BEBEC7",
             }}
           >
-            Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem officia et sint laboriosam sed ipsa sint ut voluptatum labore et possimus voluptas.
+            Lorem ipsum dolor sit amet. Qui consequatur sint 33 voluptatem
+            officia et sint laboriosam sed ipsa sint ut voluptatum labore et
+            possimus voluptas.
           </p>
         </div>
 
@@ -42,8 +55,8 @@ const Portfolio = () => {
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", 
-            gap: "98px",
+            gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+            gap: "40px",
           }}
         >
           {/* Step 1 */}
@@ -81,20 +94,32 @@ const Portfolio = () => {
               <img
                 src={Maskgroup}
                 alt="Step 1"
-                style={{ width: "100%", maxWidth: "84px", marginBottom: "40px",marginTop: "50px" }} 
+                style={{
+                  width: "100%",
+                  maxWidth: "84px",
+                  marginBottom: "40px",
+                  marginTop: "50px",
+                }}
               />
               <h2
                 style={{
-                    font: "plus Jakarta Sans",
-                    fontWeight: "600",
-                    lineHeight: "34.48px",
-                    fontSize: "33px",
-                    marginBottom: "20px",
+                  font: "Plus Jakarta Sans",
+                  fontWeight: "600",
+                  lineHeight: "34.48px",
+                  fontSize: "33px",
+                  marginBottom: "20px",
                 }}
               >
                 Connect wallet & exchange
               </h2>
-              <p style={{font: "Inter", fontSize: "15px", fontWeight: "400", lineHeight: "25.27px"}}>
+              <p
+                style={{
+                  font: "Inter",
+                  fontSize: "15px",
+                  fontWeight: "400",
+                  lineHeight: "25.27px",
+                }}
+              >
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptates, numquam quia praesentium aliquid odio illum tempora
                 libero quaerat autem aspernatur! Magnam.
@@ -137,20 +162,32 @@ const Portfolio = () => {
               <img
                 src={Maskgroup1}
                 alt="Step 2"
-                style={{ width: "100%", maxWidth: "84px", marginBottom: "40px",marginTop: "50px"}}
+                style={{
+                  width: "100%",
+                  maxWidth: "84px",
+                  marginBottom: "40px",
+                  marginTop: "50px",
+                }}
               />
               <h2
                 style={{
-                    font: "plus Jakarta Sans",
-                    fontWeight: "600",
-                    lineHeight: "34.48px",
-                    fontSize: "33px",
-                    marginBottom: "20px",
+                  font: "Plus Jakarta Sans",
+                  fontWeight: "600",
+                  lineHeight: "34.48px",
+                  fontSize: "33px",
+                  marginBottom: "20px",
                 }}
               >
                 Connect wallet & exchange
               </h2>
-              <p style={{font: "Inter", fontSize: "15px", fontWeight: "400", lineHeight: "25.27px"}}>
+              <p
+                style={{
+                  font: "Inter",
+                  fontSize: "15px",
+                  fontWeight: "400",
+                  lineHeight: "25.27px",
+                }}
+              >
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptates, numquam quia praesentium aliquid odio illum tempora
                 libero quaerat autem aspernatur! Magnam.
@@ -193,20 +230,32 @@ const Portfolio = () => {
               <img
                 src={Maskgroup2}
                 alt="Step 3"
-                style={{ width: "100%",maxWidth: "84px", marginBottom: "40px",marginTop: "50px" }} 
+                style={{
+                  width: "100%",
+                  maxWidth: "84px",
+                  marginBottom: "40px",
+                  marginTop: "50px",
+                }}
               />
               <h2
                 style={{
-                    font: "plus Jakarta Sans",
-                    fontWeight: "600",
-                    lineHeight: "34.48px",
-                    fontSize: "33px",
-                    marginBottom: "20px",
+                  font: "Plus Jakarta Sans",
+                  fontWeight: "600",
+                  lineHeight: "34.48px",
+                  fontSize: "33px",
+                  marginBottom: "20px",
                 }}
               >
                 Connect wallet & exchange
               </h2>
-              <p >
+              <p
+                style={{
+                  font: "Inter",
+                  fontSize: "15px",
+                  fontWeight: "400",
+                  lineHeight: "25.27px",
+                }}
+              >
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptates, numquam quia praesentium aliquid odio illum tempora
                 libero quaerat autem aspernatur! Magnam.
@@ -215,7 +264,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

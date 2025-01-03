@@ -43,14 +43,14 @@ const Home = () => {
             {/* Header Section */}
             <div className="flex flex-col sm:flex-row justify-between px-6 sm:px-10 lg:px-[2.5rem] py-8">
                 {/* Logo */}
-                <div className="h-50 w-80  lg:items-start lg:mx-10 ">
+                <div className="h-50 w-60  lg:items-start lg:mx-9 ">
                    <button>
                     <img src={logo} alt="Logo" />
                     </button> 
                 </div>
 
                 {/* Newsletter Button */}
-                <div className="mt-4 sm:mt-0">
+                <div className="mt-4 sm:mt-0 sm:mr-6">
                     <div className="flex items-center justify-between px-4 py-2 rounded-full bg-gradient-to-r from-[#8C3035] to-[#D17561] text-white">
                         <img src={icon3} alt="Newsletter" className="h-8 w-10" />
                         <button className="ml-2">Newsletter</button>
@@ -61,9 +61,9 @@ const Home = () => {
             {/* Main Content */}
             <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start px-6 sm:px-10 lg:mx-10 py-10 space-y-10 lg:space-y-0">
                 {/* Left Content */}
-                <div className="flex flex-col items-start text-left space-y-6">
+                <div className="flex flex-col items-start text-left space-y-8">
                     {/* Heading */}
-                    <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight text-white max-w-lg">
+                    <h1 className="text-3xl sm:text-5xl lg:text-5xl font-semibold leading-tight text-white max-w-lg">
                         A whole world of crypto, in one simple account
                     </h1>
 
@@ -74,13 +74,16 @@ const Home = () => {
 
                     {/* TrustScore */}
                     <div className="flex items-center gap-2">
-                        <img src={icon4} alt="TrustScore" className="h-8 w-8" />
-                        <span className="text-white">TrustScore 4.2</span>
+                        <img src={icon4} alt="TrustScore" className="h-14 w-14" />
+                        <span className="text-white weight-400 font-inter" >TrustScore 4.2
+                            <p className="font-inter text-[#BEBEC7] textsize-14px">15k+ Reviews</p>
+                        </span>
                     </div>
                 </div>
 
                 {/* Right Content */}
-                <div className="relative w-full sm:w-auto lg:w-96 bg-[#1c1b1b] text-white rounded-2xl p-5 flex flex-col items-center space-y-6">
+                <div className="relative w-full sm:w-auto lg:w-[36rem] bg-[#1c1b1b] text-white rounded-2xl p-5 flex flex-col items-center space-y-6"
+                style={{ marginBottom: '158px' }}>
                     {/* Title */}
                     <h2 className="text-xl font-semibold">Swap</h2>
 
@@ -123,10 +126,10 @@ const Home = () => {
                         {/* Divider Button */}
                         <div
                             onClick={handleSwap}
-                            className="absolute left-1/2 transform -translate-x-1/2 top-[38%] z-10"
+                            className="absolute left-1/2 transform -translate-x-1/2 top-[36%] z-10"
                         >
-                            <div className="w-12 h-12 bg-[#2B3342] flex items-center justify-center rounded-full border-4 border-[#1c1b1b] cursor-pointer hover:bg-[#1f2933] transition">
-                                <button className="text-white text-2xl">⇅</button>
+                            <div className="w-16 h-16 bg-[#2B3342] flex items-center justify-center rounded-full border-4 border-[#252B36] cursor-pointer hover:bg-[#1f2933] transition">
+                                <button className="text-[#717A8C] text-2xl">⇅</button>
                             </div>
                         </div>
 
@@ -179,7 +182,7 @@ const Home = () => {
             </div>
 
             {/* Background Layer */}
-            <div className="absolute top-[32rem] right-[25rem] z-[-10]">
+            <div className="absolute top-[29rem] right-[36rem] z-[-15]">
                 <img src={layer6} alt="Background Decoration" className="h-41 w-40" />
             </div>
         </>

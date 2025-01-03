@@ -24,13 +24,13 @@ const App = () => {
                  <img
                     src={bgImg}
                     alt=""
-                    className="z-[-999] absolute w-full h-[950%] lg:h-[550%]"
+                    className="z-[-999] absolute w-full h-[950%] lg:h-[575%]"
 
                 />
                 <img
                     src={Rectangle6320}
                     alt=""
-                     className="z-[-999] absolute w-full h-[950%]  lg:h-[550%] opacity-35%"
+                     className="z-[-999] absolute w-full h-[950%]  lg:h-[575%] opacity-40%"
                     
                  />
                 <Home />
