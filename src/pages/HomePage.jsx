@@ -30,7 +30,6 @@ const HomePage = () => {
                     src={Rectangle6320}
                     alt=""
                     className="z-[-999] absolute w-full h-[950%]  lg:h-[575%] opacity-40%"
-
                 />
                 <Home />
                 <Sponsor />
